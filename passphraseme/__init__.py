@@ -12,7 +12,7 @@ except:
 
 def generate(filename, word_count, sep):
     with open(filename) as f:
-        words = [line.rstrip("\n") for line in f]
+        words = [line.rstrip("\n").capitalize() for line in f]
 
     try:
         return sep.join(choice(words) for _ in range(word_count))
