@@ -27,7 +27,7 @@ def main():
         metavar="word_count",
         nargs="?",
         const=1,
-        default=4,
+        default=7,
         type=int,
         help="Word count",
     )
