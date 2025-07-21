@@ -6,18 +6,14 @@ A quick and simple cryptographically secure script to generate high entropy pass
 
 You can also optionally choose a different wordlist. Here are all of the command line arguments:
 
-| Short             | Long                        | Description                                                           |
-|-------------------|-----------------------------|-----------------------------------------------------------------------|
-| `-h`              | `--help`                    | show help message                                                     |
-|                   | `--sep`                     | Separator (default "-")                                               |
-| `-l`              | `--large`                   | Use EFF's general large wordlist                                      |
-| `-s1`             | `--short1`                  | Use EFF's general short wordlist (default)                            |
-| `-s2`             | `--short2`                  | Use EFF's short wordlist with unique prefixes                         |
-| `-got`            | `--game-of-thrones`         | Use EFF's Game of Thrones wordlist (Passwords of Westeros)            |
-| `-hp`             | `--harry-potter`            | Use EFF's Harry Potter wordlist (Accio Passphrase!)                   |
-| `-st`             | `--star-trek`               | Use EFF's Star Trek wordlist (Live Long and Passphrase)               |
-| `-sw`             | `--star-wars`               | Use EFF's Star Wars wordlist (The Passphrase Is Strong With This One) |
-| `-d [dictionary]` | `--dictionary [dictionary]` | Custom wordlist filename                                              |
+| Short             | Long                        | Description                                   |
+| ----------------- | --------------------------- | --------------------------------------------- |
+| `-h`              | `--help`                    | show help message                             |
+|                   | `--sep`                     | Separator (default "-")                       |
+| `-l`              | `--large`                   | Use EFF's general large wordlist              |
+| `-s1`             | `--short1`                  | Use EFF's general short wordlist (default)    |
+| `-s2`             | `--short2`                  | Use EFF's short wordlist with unique prefixes |
+| `-d [dictionary]` | `--dictionary [dictionary]` | Custom wordlist filename                      |
 
 ## Licenses
 
